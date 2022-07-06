@@ -20,10 +20,10 @@ int main() {
             posi[result[posi[x[i]-1]]-1]--;
             posi[x[i]-1]++;
         }else if(x[i]==result[n-1]){
-            tmp_n=result[n-2];//4
-            result[n-2]=result[n-1];//5
-            result[n-1]=tmp_n;//swap
-            posi[result[n-2]-1]--;//
+            tmp_n=result[n-2];
+            result[n-2]=result[n-1];
+            result[n-1]=tmp_n;
+            posi[result[n-2]-1]--;
             posi[result[n-1]-1]++;
         }
     }
